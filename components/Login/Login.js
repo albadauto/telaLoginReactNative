@@ -31,6 +31,8 @@ export default function Login({navigation}) {
       <TouchableOpacity style={styles.botao} onPress={() => {clicou()}}>
         <Text style={styles.botaoText}>Login</Text>
       </TouchableOpacity>
+
+      
     </View>
   );
 }
